@@ -1,0 +1,105 @@
+.header{
+    
+    text-align: center;
+    background-color: rgb(240, 204, 159);
+}
+
+.container{
+    background-color: #00bcd4;
+    /* border: 1px solid black; */
+    max-width: 1140px;
+    margin: auto;
+    /* margin: 0; */
+    padding: 0;
+}
+
+/*--------Images--------*/
+.hangman-image{
+  /* display: none; */
+}
+.left{
+  /* display: none; */
+  /* border:1px solid black; */
+  width: 200px;
+  height: 250px;
+  margin-top: 0px;
+  margin-bottom: 110px;
+  margin-left: -10px;
+}
+.hangmanHead{
+  display: none;
+  margin-bottom:-125px;
+  margin-top: 100px;
+  margin-left: 15px;
+}
+.head{
+  display: none;
+  margin-top: -280px;
+  margin-left: 215px;
+}
+.mid{
+  display: none;
+  margin-left: 238px;
+  margin-top: -12px;
+}
+.leftHand{
+  display: none;
+  margin-left: 195px;
+  margin-top: -70px;
+}
+.rightHand{
+  display: none;
+  margin-left: 248px;
+  margin-top: -48px;
+}
+.leftLeg{
+  display: none;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+.rightLeg{
+  display: none;
+  margin-left: 245px;
+  margin-top: -63px;
+}
+img{
+  /* border: 0.5px solid black; */
+  /* border: 1px solid black; */
+}
+.row{
+  display: flex;
+  text-align: center;
+}
+
+.right{
+    margin: auto;
+    width: 50%;
+}
+
+.box{
+  display:inline-block;
+  margin-bottom: 2%;
+}
+
+.box_input{
+  border: none;
+  border-bottom: 1px solid black;
+  margin-left: 10px;
+  width: 20px;
+}
+
+.letters_btn{
+  background-color: #0066cc;
+  box-shadow: 2px 2px 2px #003366;
+  border: none;
+  border-radius:3px;
+  color: white;
+  margin: 4px;
+  padding: 8px 11px 8px 11px; 
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #5597da;
+}
+
